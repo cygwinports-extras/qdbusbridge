@@ -1,0 +1,10 @@
+--- origsrc/qdbusbridge/qdbusbridge.pro	2008-08-18 19:40:57.000000000 -0500
++++ src/qdbusbridge/qdbusbridge.pro	2008-08-18 19:47:51.648006000 -0500
+@@ -30,5 +30,6 @@
+ OBJECTS_DIR = tmp
+ MOC_DIR = tmp
+ 
+-DESTDIR = $$[QT_INSTALL_PLUGINS]/accessiblebridge 
+ TARGET = qdbusbridge
++target.path = $$[QT_INSTALL_PLUGINS]/accessiblebridge 
++INSTALLS += target

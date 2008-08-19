@@ -1,0 +1,8 @@
+DESCRIPTION="Qt4 DBus accessibility bridge"
+HOMEPAGE="http://labs.trolltech.com/page/Projects/Accessibility/QDBusBridge"
+SVN_URI="svn://labs.trolltech.com/svn/accessibility/qdbusbridge"
+SVN_BRANCH=/
+SVN_DATE=${PV}
+PATCH_URI="20080818-install.patch"
+
+inherit qt4-qmake svn
